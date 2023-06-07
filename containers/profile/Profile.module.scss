@@ -1,0 +1,8 @@
+.profile {
+  min-height: 100vh;
+}
+.profileinput {
+  &:read-only {
+    background-color: #d6d9d9;
+  }
+}

@@ -1,0 +1,20 @@
+.scrollbar_hide::-webkit-scrollbar {
+  width: 10px;
+  margin-left: 5px;
+}
+
+.scrollbar_hide::-webkit-scrollbar-thumb {
+  background-color: #718096;
+  border-radius: 12px;
+}
+
+.scrollbar_hide::-webkit-scrollbar-track {
+  background-color: #cbd5e0;
+  border-radius: 12px;
+}
+
+/* For IE, Edge and Firefox */
+// .scrollbar_hide {
+//     -ms-overflow-style: none;  /* IE and Edge */
+//     scrollbar-width: none;  /* Firefox */
+// }

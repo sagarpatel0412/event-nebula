@@ -1,0 +1,27 @@
+.navbar_header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #34495e;
+  color: white;
+  .navbar_items_header {
+    color: white;
+    text-decoration: none;
+  }
+  .navbar_title {
+    margin: 20px;
+  }
+  .navbar_submenu {
+    display: flex;
+    padding: 13px;
+    justify-content: space-between;
+    .navbar_items {
+      margin: 20px;
+      color: white;
+      text-decoration: none;
+      &:hover {
+        color: cornsilk;
+        cursor: pointer;
+      }
+    }
+  }
+}

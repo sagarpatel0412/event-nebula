@@ -1,0 +1,36 @@
+.carasoul {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  .carasoulbutton1 {
+    color: azure;
+    background-color: black;
+    opacity: 0.9;
+    padding: 10px 20px;
+    margin-right: -50px;
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+  .carasoulbutton2 {
+    color: azure;
+    background-color: black;
+    opacity: 0.9;
+    padding: 10px 20px;
+    margin-left: -50px;
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+  .carasoulbutton3 {
+    color: azure;
+    background-color: black;
+    opacity: 0.8;
+    padding: 10px 20px;
+    margin-left: -1px;
+    &:disabled {
+      opacity: 0.3;
+    }
+  }
+}

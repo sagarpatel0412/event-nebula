@@ -1,0 +1,31 @@
+.signup {
+  min-height: 120vh;
+  width: 98vw;
+  .signup_container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+    .signup_form {
+      width: 600px;
+      display: flex;
+      justify-content: center;
+      .signup_form_form {
+        // border: 1px solid black;
+        .signup_form_input {
+          margin: 10px;
+          .input_form {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-bottom: 1px solid black;
+            background-color: #dfdcdd;
+          }
+          .input_button {
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+}

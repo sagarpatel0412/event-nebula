@@ -1,0 +1,48 @@
+.contact {
+  min-height: 100vh;
+  .contact_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    .contact_form_form {
+      padding: 30px;
+      width: 600px;
+      .contact_form_header {
+        margin: 10px;
+        letter-spacing: 3px;
+      }
+      .contact_form_div {
+        margin: 10px;
+        .contact_form_label {
+          letter-spacing: 3px;
+          margin-bottom: 4px;
+        }
+        .contact_form_input {
+          width: 100%;
+          padding: 10px 20px;
+          border: none;
+          background-color: #dfdcdd;
+          border-bottom: 1px solid;
+          &:focus {
+            outline: none;
+          }
+        }
+        .contact_form_button {
+          width: 100%;
+          padding: 10px 20px;
+          border: none;
+          background-color: #393b3c;
+          color: white;
+          &:hover {
+            background: #b2b4b4;
+            color: black;
+          }
+          &:disabled {
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+  }
+}
